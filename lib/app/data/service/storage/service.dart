@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:getx_todo_list/app/core/utils/keys.dart';

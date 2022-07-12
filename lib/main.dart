@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:getx_todo_list/app/modules/home/binding.dart';
 import 'package:getx_todo_list/app/modules/home/view.dart';
 
 Future<void> main() async {
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return GetMaterialApp(
       title: 'Todo List using GetX',
-      home: HomePage(),
+      home: const HomePage(),
+      initialBinding: HomeBinding(),
     );
   }
 }
